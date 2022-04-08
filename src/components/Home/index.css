@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.home-icon {
+  width: 300px;
+  height: 300px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.home-container-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+.white-heading {
+  color: white;
+  font-size: 32px;
+}
