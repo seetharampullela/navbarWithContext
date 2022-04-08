@@ -10,7 +10,7 @@ const About = () => (
     <ThemeContext.Consumer>
       {value => {
         const {isDarkTheme} = value
-        const altAboutValue = isDarkTheme ? 'about' : 'theme'
+        const altAboutValue = isDarkTheme ? 'about' : 'about'
         const renderDarkAbout = () => (
           <div className="home-container-dark">
             <img

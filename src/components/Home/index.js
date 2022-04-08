@@ -9,7 +9,7 @@ const Home = () => (
     <ThemeContext.Consumer>
       {value => {
         const {isDarkTheme} = value
-        const altValue = isDarkTheme ? 'theme' : 'home'
+        const altValue = isDarkTheme ? 'home' : 'home'
 
         const renderDarkHome = () => (
           <div className="home-container-dark">

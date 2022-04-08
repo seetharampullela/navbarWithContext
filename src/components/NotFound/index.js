@@ -19,7 +19,8 @@ const NotFound = () => (
             />
             <h1 className="not-found-heading">Lost your way?</h1>
             <p className="not-found-heading">
-              We cannot seem to find the page you are looking for
+              {' '}
+              We cannot seem to find the page you are looking for.
             </p>
           </div>
         )
@@ -32,7 +33,7 @@ const NotFound = () => (
               className="not-found-image"
             />
             <h1>Lost your way?</h1>
-            <p>We cannot seem to find any page you are looking for</p>
+            <p> We cannot seem to find the page you are looking for.</p>
           </div>
         )
 

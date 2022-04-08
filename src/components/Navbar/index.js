@@ -30,12 +30,16 @@ const Navbar = () => (
               </Link>
             </div>
             <li>
-              <button type="button" className="theme-button" testid="theme">
+              <button
+                type="button"
+                className="theme-button"
+                testid="theme"
+                onClick={onClickToggleTheme}
+              >
                 <img
                   src="https://assets.ccbp.in/frontend/react-js/light-theme-img.png"
                   alt="theme"
                   className="theme-icon"
-                  onClick={onClickToggleTheme}
                 />
               </button>
             </li>
@@ -63,12 +67,16 @@ const Navbar = () => (
               </Link>
             </div>
             <li>
-              <button type="button" className="theme-button" testid="theme">
+              <button
+                type="button"
+                className="theme-button"
+                testid="theme"
+                onClick={onClickToggleTheme}
+              >
                 <img
                   src="https://assets.ccbp.in/frontend/react-js/dark-theme-img.png"
                   alt="theme"
                   className="theme-icon"
-                  onClick={onClickToggleTheme}
                 />
               </button>
             </li>
